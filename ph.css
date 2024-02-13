@@ -1,0 +1,222 @@
+
+@media (max-width: 600px) {
+/* NO COPYING OF THIS NAVBAR!!! 😡😡😡😡😡 */
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: bellota;
+}
+nav{
+  background: #f8ceec;
+  height: 80px;
+  width: 100%;
+  
+}
+label.logo{
+  /*color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;*/
+  display: none;
+}
+nav .menubar{
+  float: right;
+  margin-right: 20px;
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.197);
+  
+}
+nav .menubar .menulist{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav .menubar .menulist .abc{
+  color: black;
+  font-size: 15px;
+  padding: 7px 13px;
+  text-transform: uppercase;
+}
+.active,.abc:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+ span {
+ font-size: 25px;
+ }
+ .checkbtn{
+    display: block;
+  }
+  .menubar{
+    position: fixed;
+    width: 60%;
+    height: 100vh;
+    background: #f8ceec;
+    top: 80px;
+    margin-left: 6px;
+    left: -100%;
+    text-align: left;
+    transition: all .5s;
+  }
+  nav .menubar .menulist{
+    display: block;
+    margin: 50px 0;
+    line-height: 10px;
+  }
+  nav .menubar .menulist .abc{
+    font-size: 15px;
+  }
+  .abc:hover,.abc .active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ .menubar{
+    left: -6px;
+  }
+  body {
+ background-image: linear-gradient(to right top, #fff3d9, #ffead5, #ffe1d8, #ffd9e1, #ffd5ed, #f2d9f7, #e3ddfe, #d5e1ff, #cee9ff, #cbefff, #cdf5fc, #d4faf7);
+ background-attachment: fixed;
+}
+.header {
+ 
+ text-align: center;
+ 
+padding: 40px;
+
+
+}
+.day {
+ font-size: 20px;
+ font-weight: bold;
+ padding: 15px;
+ width: 60%;
+ margin: 10px;
+ background-color: #ffffff;
+ border-radius: 15px;
+}
+.para_heading_small {
+ font-size: 15px;
+ color: #ffffff;
+ font-weight: bold;
+ text-shadow: 1px 1px #808080;
+}
+.para_heading,.title {
+ color: #ffffff;
+ font-weight: bold;
+ text-shadow: 2px 2px #808080;
+ text-align: center;
+}
+.title {
+ 
+}
+.glassmorphism {
+border-radius: 25px;
+ background-color: rgb(255,255,255,0.3);
+ text-align: center;
+ padding: 20px;
+ width: auto;
+ 
+}
+.important_image {
+height: 170px;
+ width: 250px;
+ border-radius: 25px;
+}
+.glassmorphism_two {
+border-radius: 25px;
+ background-color: rgb(255,255,255,0.3);
+ text-align: center;
+ padding: 20px;
+ width: auto;
+ 
+}
+.para_des {
+ color: #ffffff;
+}
+.button {
+ width: 100%;
+ height: 50px;
+ text-align: center;
+ align: center;
+ border-radius: 25px;
+ border: none;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ background-color: #ffbaf1;
+}
+.center {
+ text-align: center;
+ padding: 20px;
+}
+.two {
+ background-color: #ffffff;
+ width: auto;
+ margin: 10px;
+ border-radius: 25px;
+ padding: 15px 12px 0 8px;
+}
+.subject {
+ text-align: center;
+ margin: 0 10px 0 10px;
+}
+.subjects {
+ display: flex;
+ text-align: center;
+ }
+.su {
+ height: 120px;
+ width: 90px;
+ border-radius: 5px;
+}
+.sub_name {
+ font-size: 13px;
+ font-weight: bold;
+ text-align: center;
+}
+.sub_tea {
+ font-size: 10px;
+ text-align: center;
+}
+.sub_teaa {
+ font-size: 6px;
+ text-align: center;
+}
+.sub_te {
+display: none;
+}
+.sub_time {
+ font-size: 10px;
+ text-align: center;
+}
+.d {
+ text-align: center;
+}
+.dd {
+ border-radius: 15px;
+ width: 340px;
+ height: 140px;
+}
+.footer {
+ font-size: 10px;
+ text-align: center;
+}
+}
